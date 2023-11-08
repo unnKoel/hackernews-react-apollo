@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useMutation, gql } from "@apollo/client";
+import { useNavigate } from "react-router-dom";
 
 const CREATE_LINK_MUTATION = gql`
   mutation PostMutation($description: String!, $url: String!) {
@@ -13,6 +14,7 @@ const CREATE_LINK_MUTATION = gql`
 `;
 
 const CreatLink = () => {
+  const navigate = useNavigate();
   const [formState, setFormState] = useState({ description: "", url: "" });
 
   const [createLink] = useMutation(CREATE_LINK_MUTATION, {
@@ -20,6 +22,7 @@ const CreatLink = () => {
       description: formState.description,
       url: formState.url,
     },
+    onCompleted: () => navigate("/"),
   });
 
   return (
