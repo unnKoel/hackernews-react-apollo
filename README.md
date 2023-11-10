@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Reference
+
+- [How to graphQL](https://www.howtographql.com/basics/0-introduction/)
+  A good tutorial to learn GraphQL on the side of front end.
+- [GraphQL explained](https://www.apollographql.com/blog/graphql/basics/graphql-explained/)
+  A good article which explain well about how GraphQL works in the hood.
+- [javascript-apollo Tutorial](https://www.howtographql.com/graphql-js/0-introduction/)
+  A good tutorial to learn GraphQL on the side of back end.
+
+## My understanding of GraphQL
+
+![](./doc//GraphQL-myunderstanding.png)
