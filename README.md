@@ -75,15 +75,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Graphql
 - React
 
-## Reference
+## Practises
+
+[hackernews-react-apollo](https://github.com/unnKoel/hackernews-react-apollo)
+
+## References
 
 - [How to graphQL](https://www.howtographql.com/basics/0-introduction/)
   A good tutorial to learn GraphQL on the side of front end.
 - [GraphQL explained](https://www.apollographql.com/blog/graphql/basics/graphql-explained/)
   A good article which explain well about how GraphQL works in the hood.
-- [javascript-apollo Tutorial](https://www.howtographql.com/graphql-js/0-introduction/)
+- [javascript-apollo Tutorial](https://www.howtographql.com/graphql-js/0-introduction/) latest version[Build a Fully Type-Safe Application with GraphQL, Prisma & React.](https://www.prisma.io/blog/e2e-type-safety-graphql-react-1-I2GxIfxkSZ)
   A good tutorial to learn GraphQL on the side of back end.
+
 
 ## My understanding of GraphQL
 
-![](./doc//GraphQL-myunderstanding.png)
+![](./doc/GraphQL-myunderstanding.png)
